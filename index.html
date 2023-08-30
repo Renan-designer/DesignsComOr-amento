@@ -5453,17 +5453,24 @@
             link.addEventListener('click', function(event) {
                 event.preventDefault(); // Impede o link de redirecionar imediatamente
     
-                var resposta = confirm("Você está prestes a ser redirecionado para o WhatsApp. Você realmente deseja ir?");
+                setTimeout(function() {
+                    var resposta = confirm("Você está prestes a ser redirecionado para o WhatsApp. Você realmente deseja ir?");
+                
+                    console.log(resposta); // Verifica o valor da resposta no console
     
-                if (resposta) {
-                    window.location.href = "https://api.whatsapp.com/send?phone=558586644125";
-                }
+                    if (resposta) {
+                        window.location.href = "https://api.whatsapp.com/send?phone=558586644125";
+                    }
+                }, 200); // Adicione um atraso de 100 milissegundos
             });
         }
     }
     
     // Chama a função para ativar o comportamento do clique
     clicar();
+    
+    
+    
     
     function beforeUnloadListener(event) {
         event.preventDefault();
