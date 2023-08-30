@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(../imagens/23869881_6857762.jpg);
+    background-position: left bottom;
+    background-attachment: fixed;
+    transition-duration: .9s;
+    height: 100vh;
+}
+
+.designer-imagem {
+    max-width: 180px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: .8px solid white;
+    margin: auto;
+    display: flex;
+}
+
+/* Rest of your styles here */
+
+
+/* Rest of your styles here */
+
+
+body, html {
+    transition-duration: .9s;
+    height: 100vh;
+    width: 50vw;
+
+
+}
+
+.designer-imagem {
+    max-width: 100%;
+    position: relative;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+
+    display: flex;
+    border: .8px solid white;
+    top: 200px;
+    
+}
+.designer-p-1{
+    position: relative;
+left: 300px;
+    text-align: center;
+color: rgba(255, 255, 255, 0.908);
+top: -10px;
+}
+.designer-p-2{
+    text-align: center;
+color: rgba(255, 255, 255, 0.908);
+font-size: 2em;
+position: relative;
+left: 300px;
+}
+.designer-infor{
+    position: relative;
+   text-align: center;
+color: white;
+font-size: 1.2em;
+left: 310px;
+top: 180px;
+}
+.link-designer {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    height: 80px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s ease; /* Transições suaves */
+    transform-origin: center center; /* Define o ponto central como origem da transformação */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
+    top: 300px;
+left: 460px;
+}
+
+.link-designer:hover,
+.link-designer:active {
+    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo com transparência */
+}
+
+.link-designer:active {
+    background-color: rgba(255, 255, 255, 0.4); /* Cor de fundo mais clara quando pressionado */
+    transform: scale(1.1); /* Aumenta a escala para criar o efeito de expansão */
+}
+
+
+
+
+.strong-1{
+    position: relative;
+    top: 10px;
+    left: 160px;
+    font-weight: bolder;
+}
+.strong-2{
+font-weight: normal;
+position: relative;
+top: 40px;
+}
+.div-1{
+    position: relative;
+    border: 2px solid white; 
+    border-radius: 10px;
+padding: 10px;
+    text-align: right;
+    width: 300px;
+    height: 100px;
+    top: 300px;
+    left: 490px;
+}
+.designer-imagem-2{
+    position: relative;
+    max-width: 70px;
+    left: 120px;
+    top: 270px;
+    margin: auto;
+}
