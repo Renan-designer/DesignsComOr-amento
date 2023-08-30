@@ -5456,17 +5456,17 @@
                 setTimeout(function() {
                     var resposta = confirm("Você está prestes a ser redirecionado para o WhatsApp. Você realmente deseja ir?");
                 
-                    console.log(resposta); // Verifica o valor da resposta no console
+                    console.log(resposta); // Verificando o valor da resposta no console
     
                     if (resposta) {
                         window.location.href = "https://api.whatsapp.com/send?phone=558586644125";
                     }
-                }, 200); // Adicione um atraso de 100 milissegundos
+                }, 200); // Adicionei um atraso de 100 milissegundos
             });
         }
     }
     
-    // Chama a função para ativar o comportamento do clique
+    // Chamei a função para ativar o comportamento do clique
     clicar();
     
     
