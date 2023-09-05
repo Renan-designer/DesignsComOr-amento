@@ -239,7 +239,7 @@ left: 130px;
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
         text-align: center;
-
+left: -2px;
 }
     
 .strong-1{
