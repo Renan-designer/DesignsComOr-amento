@@ -79,6 +79,7 @@ top: 180px;
     position: relative;
     height: 80px;
     height: 100px;
+    width: 400px;
     padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
@@ -86,7 +87,7 @@ top: 180px;
     transform-origin: center center; /* Define o ponto central como origem da transformação */
     overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
     top: 250px;
-left: 460px;
+left: 420px;
 }
 
 .link-designer:hover,
