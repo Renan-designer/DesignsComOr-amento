@@ -9292,21 +9292,20 @@
             link.addEventListener('click', function(event) {
                 event.preventDefault(); // Impede o link de redirecionar imediatamente
     
-                setTimeout(function() {
-                    var resposta = confirm("Você está prestes a ser redirecionado para o WhatsApp. Você realmente deseja ir?");
-                
-                    console.log(resposta); // Verificando o valor da resposta no console
+                var resposta = confirm("Você está prestes a ser redirecionado para o WhatsApp. Você realmente deseja ir?");
     
-                    if (resposta) {
-                        window.location.href = "https://api.whatsapp.com/send?phone=558586644125";
-                    }
-                }, 200); // Adicionei um atraso de 100 milissegundos
+                console.log(resposta); // Verificando o valor da resposta no console
+    
+                if (resposta) {
+                    window.location.href = "https://api.whatsapp.com/send?phone=558586644125";
+                }
             });
         }
     }
     
     // Chamei a função para ativar o comportamento do clique
     clicar();
+    
     
     
     
