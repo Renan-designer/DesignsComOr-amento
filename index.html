@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">
     <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
     <style>
-
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            opacity: 0; /* O body está inicialmente invisível */
+            transition: opacity 1s;
+        }
+        
+        .fade-in {
+            opacity: 1; /* Quando a classe é aplicada ao body, ele se torna visível */
+        }
+        
         @media (min-width: 300px) and (max-width: 301px) {
             .designer-imagem {
                 max-width: 100vw;
@@ -3511,7 +3524,7 @@
                 overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
                 top: 100px;
         text-align: center;
-        left: 370px;
+        left: 29px;
             }
             
         .strong-1{
@@ -11406,7 +11419,7 @@
     </style>
 </head>
 
-<body>
+<body class="fade-in">
     <img class="designer-imagem" src="imagens/imagem-renan-designer.png" alt="img-designer-renan">
 
     <p class="designer-p-1">Renan | <strong style="color: royalblue;">Designer</strong></p>
